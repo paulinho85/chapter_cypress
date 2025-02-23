@@ -1,0 +1,19 @@
+{
+  "name": "chapter_cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "Paulo Roberto de Souz",
+  "license": "ISC",
+  "description": "Projeto de automação cypress para apresentação na Chapter i4TCoE",
+  "dependencies": {
+    "cypress": "^14.0.3",
+    "cypress-plugin-xhr-toggle": "^1.2.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}
