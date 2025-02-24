@@ -6,7 +6,9 @@ module.exports = defineConfig({
   
 
   e2e: {
+
     baseUrl: 'https://automationexercise.com',
+
     setupNodeEvents(on, config) {
       allureCypress(on, config, {
         resultsDir: "allure-results",
