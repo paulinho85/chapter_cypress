@@ -65,7 +65,7 @@ describe('Automation Exercise', () => {
     it('Test Case 2: Login User', () => {        
         menu.irParaLoginCadastro();
         login
-            .preencherLogin('paulorsouza@email.com', '654321')
+            .preencherLogin('paulorsouza@email.com', '6543211')
             .verificarSeLoginFoiRealizado("Paulo R Souza");        
     });
 

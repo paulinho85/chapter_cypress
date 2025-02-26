@@ -2,7 +2,10 @@ const { defineConfig } = require("cypress");
 const { allureCypress } = require("allure-cypress/reporter");
 
 module.exports = defineConfig({
-  watchForFileChanges: false, 
+  watchForFileChanges: false,
+  video: true,
+  videosFolder: "cypress/videos",
+  trashAssetsBeforeRuns: true,
   
 
   e2e: {
